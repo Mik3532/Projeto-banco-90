@@ -1,0 +1,200 @@
+*{
+    width: 100%;
+    margin: auto;
+}
+
+
+:root {
+  --pretoV:  #302727;
+  --Vermelho :#ba2d2d ;
+  --laranja: #f2511b;
+  --amareloT: #f2871b62;
+  --amareloQ: #f2861b;
+  --amareloC :#c7c730;
+}
+
+#cabecalho {
+    width: 100%;
+    height: 70px;
+    background-color: var(--Vermelho);
+    margin-bottom: 15px;  
+    display: flex;
+
+    
+}
+
+#logo {
+    width: 8%;
+}
+
+
+
+#banner {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    display: flex;
+    margin-bottom: 40px;
+    
+      
+}
+
+
+#quadradoL {
+    width: 40%;
+    height: 150px; 
+    background-color: var(--amareloT);
+      
+ 
+}
+
+#botao {
+    width: 100%;
+    justify-content: left;
+    padding: 20px;
+    margin-left: 8px;
+   
+}
+
+#botao2{
+    width: 40%;
+    height: 50px;
+    background-color: var(--pretoV);
+    border: 2px solid var(--amareloQ);
+    color: white;
+   
+}
+
+#frase {
+    text-align: center;
+}
+
+
+#pkk {
+    font-size: 18px;
+    margin-left: 28px;
+}
+
+#botoesHeader {
+    display: flex;
+
+
+}
+
+#bth {
+    border: none;
+    color: white;
+    background-color: transparent;
+}
+
+#bthconta {   
+    width: 20%;
+    height: 40px;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    
+}
+
+#botaoheader {
+    display: flex;
+    margin-left: auto;
+    justify-content: flex-end;
+    
+}
+
+/* icones/imagens  */
+
+#textoPagamento {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+#iconesPagamento {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+
+
+#pgs {
+    padding: 50px;
+    width: 15%;
+    border: 2px solid black; 
+    text-align: center;
+    align-items: center;
+}
+
+
+#fundoFoto {
+    background-color: var(--pretoV);
+    display: flex;
+
+}
+
+#servicos {
+    width: 100%;
+    color: white;
+    text-align: left;
+    padding: 50px;
+    font-size: 15px;
+
+}
+
+#imgBeneficio {
+    width: 40%;
+}
+
+#textoCliente { 
+    
+    text-align: center;
+    padding: 30px;
+}
+
+
+
+#tabAtendimento {
+    width: 400px;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+
+#tabela {
+    width: 40%;
+    padding: 40px;
+    align-items: center;   
+}
+
+
+#euSouUmaRataSenhora {
+    align-items: center;
+}
+
+th, td {
+    border: 1px solid black; 
+    padding: 5px;
+    user-select: none;
+}
+
+th {
+    background-color: var(--Vermelho);
+    color: var(--branco);
+    
+
+}
+
+td {
+    background-color: white;
+}
+
+#cartoes {
+    display: flex;
+}
+
+
+footer {
+    background-color: var(--Vermelho);
+    text-align: center;
+}
