@@ -1,8 +1,14 @@
 *{
     width: 100%;
-    margin: auto;
+    padding:0%;
+    margin: 0%;
 }
 
+
+h1,h2,h3,h4{
+    width: auto;
+    padding: 0%;
+}
 
 :root {
   --pretoV:  #302727;
@@ -12,6 +18,8 @@
   --amareloQ: #f2861b;
   --amareloC :#c7c730;
 }
+
+/*header */
 
 #cabecalho {
     width: 100%;
@@ -27,15 +35,17 @@
     width: 8%;
 }
 
+/*fim header */
 
-
+/*banner / quadradoLarnaja*/
 #banner {
     width: 100%;
-    height: 500px;
+    height: 800px;
     background-image: url(../img/banner.jpg);
     background-size: cover;
     display: flex;
     margin-bottom: 40px;
+    align-items: center;
     
       
 }
@@ -104,6 +114,10 @@
     
 }
 
+/*Fim banner */
+
+
+
 /* icones/imagens  */
 
 #textoPagamento {
@@ -149,52 +163,107 @@
 #textoCliente { 
     
     text-align: center;
-    padding: 30px;
+
 }
 
 
+/*section horarios/tables*/
 
-#tabAtendimento {
-    width: 400px;
-    border-collapse: collapse;
-    text-align: center;
-    
-}
-
-#tabela {
-    width: 40%;
-    padding: 40px;
-    align-items: center;   
-}
-
-
-#euSouUmaRataSenhora {
+#horariosdiv {
+    width: 1000px;
+    border: 1px solid black;
+    box-shadow: 5px 5px gray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    gap: 20px;
+    pad: 20px 0px;
+    margin: 30px auto;
 }
 
-th, td {
-    border: 1px solid black; 
-    padding: 5px;
-    user-select: none;
+
+#horariosdiv table {
+    width: 600px;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: solid black;
+    padding: 0px;
 }
 
 th {
     background-color: var(--Vermelho);
-    color: var(--branco);
-    
-
+    color: white;
 }
 
-td {
-    background-color: white;
+
+th:empty { /*apagar o primeiro quadrado da tabela*/
+    background-color: transparent;
+    border: none;
 }
+
+
+td:hover { /*mudar a cor do quadrado ao passar o mouser em cima*/
+    background-color: azure;
+}
+
+
+/*Fim section de horarios*/
+
+
+
+/* incio section cartoes */
 
 #cartoes {
+
+    width: 100%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
+
+
+.cartoesGrupo{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+    
+}
+
+
+.cartao {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#cartao1 {
+    background-image: url(../img/cartaoUm.jpg);
+}
+#cartao2 {
+    background-image: url(../img/cartaoDois.jpg);
+}
+#cartao3 {
+    background-image: url(../img/cartaoTres.jpg);
+}
+
+/*Fim section cartoes*/
+
+/*fim*/
 
 footer {
     background-color: var(--Vermelho);
     text-align: center;
+    color: white;
 }
