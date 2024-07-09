@@ -110,6 +110,7 @@ h1,h2,h3,h4{
 #botaoheader {
     display: flex;
     margin-left: auto;
+    padding: 15px;
     justify-content: flex-end;
     
 }
